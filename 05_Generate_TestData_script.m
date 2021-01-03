@@ -11,7 +11,7 @@ faultFlag = 1;
 % mrand = round(mrand, 3);
 
 % generating test samples
-mrand = [0.32];
+mrand = [0.309];
 
 for i = 1:length(mrand)
     m = mrand(i);
