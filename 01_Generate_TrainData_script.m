@@ -1,17 +1,16 @@
 clc;
-%clear all;
+clear all;
+
 MyTs = 1.0e-4; %original Ts = 5.0e-5
 
 faultFlag = 1;
 
 % generating random fault location m
-% mrand = 0.1 + (0.9 - 0.1).*rand(20,1);
-% mrand = round(mrand, 3);
-mrand = [0.117,0.887,0.551];
+nsamples = 20
+mrand = 0.1 + (0.9 - 0.1).*rand(nsamples, 1);
+mrand = round(mrand, 3);
 
-%m = 0.5; %fault location (0 - 1)
-
-for i = 1:3
+for i = 1:length(mrand)
     m = mrand(i);
     sim('power_hvdc12_fault');
 
