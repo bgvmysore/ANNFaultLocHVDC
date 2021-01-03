@@ -35,3 +35,6 @@ print("")
 for xt in f_current_data:
     ans = model.predict(xt)
     print("Estimated Fault Loaction: ", ans[0])
+print('')
+print(80*'#')
+print('\n')
