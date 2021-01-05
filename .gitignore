@@ -1,1 +1,4 @@
 .vscode/
+misc/debug.log
+misc/.ipynb_checkpoints/
+data/faults/.ipynb_checkpoints/
