@@ -2,7 +2,7 @@
 
 :begin
 
-set fname=bkup_cleaned_data
+set fname=bkup_data
 for /f "tokens=1-4 delims=/ " %%i in ("%date%") do ( set da=%%i )
 SET ty=%TIME:~0,2%%TIME:~3,2%%TIME:~6,2%
 
