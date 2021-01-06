@@ -38,3 +38,4 @@ for xt in f_current_data:
 print('')
 print(80*'#')
 print('\n')
+os.system('PAUSE')
